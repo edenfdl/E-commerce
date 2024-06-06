@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <button class="back-to-products" onclick="location.href='../products/products.html';">Products</button>
+    <button class="back-to-user" onclick="location.href='../user/user-page.html';">User Page</button>
+    <h1>Add Product</h1>
+    <form id="add-product-form">
+        <input type="text" id="name" placeholder="שם המוצר">
+        <input type="text" id="price" placeholder="מחיר">
+        <input type="text" id="sku" placeholder="SKU">
+        <textarea id="description" placeholder="תיאור"></textarea>
+        <input type="text" id="image" placeholder="URL של התמונה">
+        <button type="submit">SAVE</button>
+    </form>
+    <script type="module" src="admin.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js"></script>
+</body>
+</html>

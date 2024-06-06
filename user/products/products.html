@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <h1>Products</h1>
+    <div class="products-container" id="products-container"></div>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js"></script>
+    <button class="user-button" onclick="location.href='../user/user-page.html';">user Page</button>
+    <button id="signOut" onclick="location.href='../sign-in/sign-in.html';">Sign Out</button>
+    <button onclick="location.href='../admin/admin.html';" class="add-button">הוסף מוצר</button>
+    <script type="module" src="products.js"></script>
+    
+</body>
+</html>

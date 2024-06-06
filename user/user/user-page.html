@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>user page</title>
+  <link rel="stylesheet" href="user-page.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Registered users</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="table-data"></tbody>
+    </table>
+    <button id="signOut" onclick="location.href='../sign-in/sign-in.html';">Sign Out</button>
+    <button class="back-to-products" onclick="location.href='../products/products.html';">Products</button>
+  </div>
+
+  <script type="module" src="user-page.js"></script>
+</body>
+
+</html>
